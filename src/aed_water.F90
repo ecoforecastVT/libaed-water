@@ -102,6 +102,7 @@ FUNCTION aed_new_wat_model(modelname) RESULT(model)
       CASE ('aed_totals');         prefix = 'TOT'; ALLOCATE(aed_totals_data_t::model)
       CASE ('aed_dummy');          prefix = 'DUM'; ALLOCATE(aed_dummy_data_t::model)
       CASE ('aed_habitat_water');  prefix = 'HAB'; ALLOCATE(aed_habitat_water_data_t::model)
+      CASE ('aed_phyto_particles');  prefix = 'IBM'; ALLOCATE(aed_phyto_particles_data_t::model)
 !     CASE DEFAULT;                print *,'*** Unknown module ', TRIM(modelname)
    END SELECT
 

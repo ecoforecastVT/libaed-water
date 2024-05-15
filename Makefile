@@ -154,6 +154,7 @@ OBJS=${objdir}/aed_core.o \
      ${objdir}/aed_pesticides.o \
      ${objdir}/aed_phosphorus.o \
      ${objdir}/aed_phytoplankton.o \
+     ${objdir}/aed_phyto_particles.o \
      ${objdir}/aed_sedflux.o \
      ${objdir}/aed_silica.o \
      ${objdir}/aed_totals.o \
