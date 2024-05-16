@@ -55,6 +55,7 @@ MODULE aed_water
    USE aed_pathogens
    USE aed_pesticides
    USE aed_habitat_water
+   USE aed_phyto_particles
 
    IMPLICIT NONE
 
